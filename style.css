@@ -1,0 +1,173 @@
+html, body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    padding: 0;
+    margin: 0;
+}
+.img{
+  display: block;
+  margin: auto;
+  padding-top: 115px;
+}
+.form{
+  display: table;
+  margin: auto;
+}
+.inputtext{
+  background-image: url(search-icon.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 15px;
+  padding-left: 40px;
+  display: block;
+  margin: 20px;
+  border-radius: 40px;
+  border-width: 1px;
+  border-color:#DCDCDC;
+  border-style: solid;
+  width: 550px;
+  height: 43px;
+  font-size: 15px;
+}
+.inputtext:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.inputtext:focus{
+  outline: none;
+}
+.buttons{
+  display:block;
+  margin: auto;
+  text-align: center;
+}
+.inputbutton{
+  background-color: #F8F9FA;
+  border-width: 0;
+  height: 35px;
+  width: 130px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.inputbutton:hover{
+  border-width: 1px;
+  border-color: #DCDCDC;
+  border-style: solid;
+}
+.inputbutton:focus{
+  border-width: 1px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.links{
+  display: block;
+  position: absolute;
+  margin-top: 13px;
+  font-size: 14px;
+  top: 13px;
+  right: 13px;
+}
+.links a{
+  padding-right: 13px;
+  text-decoration: none;
+}
+.links a:hover{
+  text-decoration:underline;
+}
+.links a:focus{
+  color: black;
+}
+.links2{
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  left: 20px;
+}
+.img2{
+  width: 27%;
+}
+
+.textred{
+  display: block;
+  color: #DE3A25;
+  position: absolute;
+  top: 70px;
+  left: 45px;
+  font-size: 20px;
+}
+
+.line{
+  border-top: 2px;
+  margin: 10px 0;
+  position: absolute;
+  width: 100%;
+  color: #CAC8B7;
+  top: 130px;
+}
+
+.texttitlle{
+  display: block;
+  position: absolute;
+  top: 170px;
+  font-size: 16px;
+  left: 45px;
+  color: #463D33;
+}
+.fields-primary{
+  position: absolute;
+  top: 220px;
+  left: 45px;
+}
+.fields{
+  color: #463D33;
+  display: grid;
+  font-size: 13px;
+  grid-template-columns: repeat(2, 180px);
+  grid-area: auto;
+  grid-gap: 10px;
+  padding: 1px;
+  align-items:center;
+}
+.inputadvaced{
+  border-color:#CAC8B7;
+  border-style: solid;
+  border-width: 1px;
+  width: 600px;
+  height: 23px;
+}
+.inputadvaced:focus{
+  border-width: 1px;
+  border-color: blue;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  outline: none;
+}
+.advancedbutton{
+  position: absolute;
+  top: 430px;
+  left: 709px;
+  height: 30px;
+  width: 130px;
+  font-size: 12px;
+  color: white;
+  background-color: #498CFA;
+  border-color: #498CFA;
+  border-style: solid;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.advancedbutton:hover{
+  background-color: #3f82f0;
+  border-color: #3f82f0;
+}
+
+.linetwo{
+  border-top: 2px;
+  margin: 10px 0;
+  position: absolute;
+  width: 100%;
+  color: #CAC8B7;
+  top: 530px;
+}
